@@ -32,7 +32,7 @@ public class UpsLoginTestRunner extends UpsDrivers {
 		}
 		driver.get("https://www.ups.com/lasso/login?");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);//
 	}
 
 	@Test(groups = { "SanityTest" }, priority = 1)
